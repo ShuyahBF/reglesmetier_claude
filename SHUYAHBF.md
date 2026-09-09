@@ -70,6 +70,26 @@ vérifications par défaut (ex. Emergent.sh et son Testing Agent) :
      - "Applique le patch et déploie directement, sans ré-analyser."
 3. Ne jamais pousser sur GitHub sans autorisation explicite pour ce lot.
 
+## Aperçus visuels avant/à l'implémentation d'un écran
+
+- Dès qu'une tâche crée ou modifie un écran/interface utilisateur (nouveau
+  formulaire, nouveau champ visible, changement de disposition), générer
+  systématiquement un aperçu visuel (artifact HTML) montrant le rendu
+  attendu — pas seulement une description textuelle des changements.
+  Produire cet aperçu à l'implémentation (en même temps que le code, pas
+  seulement avant), pour que l'utilisateur voie concrètement le résultat
+  sans devoir attendre un déploiement.
+- L'aperçu doit refléter fidèlement le design system réel du projet
+  (couleurs, typographies, composants existants) plutôt qu'un style
+  générique — s'appuyer sur le code existant (tailwind.config, classes
+  déjà utilisées) pour rester cohérent avec l'app réelle.
+- Mettre en évidence ce qui est nouveau/modifié (badge, encadré, légende)
+  plutôt que de livrer un aperçu qu'on ne peut pas distinguer de l'existant.
+- Itérer sur cet aperçu au fil des retours avant de considérer le besoin
+  bien compris, surtout pour des changements ambigus ou à plusieurs
+  variantes possibles — c'est plus rapide à ajuster qu'une implémentation
+  complète.
+
 ## Documentation persistante par projet
 
 - Chaque projet actif doit avoir son propre `CLAUDE.md` à la racine,
