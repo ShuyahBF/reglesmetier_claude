@@ -112,3 +112,14 @@ vérifications par défaut (ex. Emergent.sh et son Testing Agent) :
 - Proposer explicitement d'ajouter une règle au `CLAUDE.md` du projet dès
   qu'une consigne métier est donnée deux fois, ou qu'elle a un impact
   durable (facturation, sécurité, cohérence des données).
+
+## GRH — Burkina Faso (règle du 15/10/2026)
+
+Toute implémentation touchant la gestion des ressources humaines (paie, bulletins, livre de paie, charges patronales,
+heures supplémentaires, avantages en nature, grille salariale, fiches du personnel) suit `GRH_BURKINA.md` (dépôt
+`ShuyahBF/reglesmetier_claude`) : lire ce fichier avant de coder ; ne jamais modifier un calcul existant sans demande
+explicite ; signaler tout écart avec le texte réglementaire dans un tableau (existant / TR / à faire / motif) et laisser le
+propriétaire arbitrer ; aucun taux ni plafond en dur (paramètres versionnés avec date d'effet et source) ; ne jamais inventer
+un numéro d'article.
+
+- Moteur GRH versionné (jeux de règles, affectations datées, bulletins figés) : voir `GRH_MOTEUR_VERSIONNE.md` (conception, 15/10/2026).
