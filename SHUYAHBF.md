@@ -121,3 +121,5 @@ heures supplémentaires, avantages en nature, grille salariale, fiches du person
 explicite ; signaler tout écart avec le texte réglementaire dans un tableau (existant / TR / à faire / motif) et laisser le
 propriétaire arbitrer ; aucun taux ni plafond en dur (paramètres versionnés avec date d'effet et source) ; ne jamais inventer
 un numéro d'article.
+
+- Moteur GRH versionné (jeux de règles, affectations datées, bulletins figés) : voir `GRH_MOTEUR_VERSIONNE.md` (conception, 15/10/2026).
