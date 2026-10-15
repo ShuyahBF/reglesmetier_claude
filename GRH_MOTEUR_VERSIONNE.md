@@ -94,7 +94,7 @@ Aucun changement tant que le propriétaire ne le demande pas. Migration en deux 
 
 ## 11. Questions ouvertes (à arbitrer avant le premier code)
 1. Arbitrage des écarts de l'audit : plafonds CNSS (800 000 / 600 000), plafonds d'exonération, abattement forfaitaire,
-   assiette du plafond 8 %, FSP, sursalaire. Source officielle en vigueur à fournir.
+   assiette du plafond 8 %, FSP (existence confirmée ; taux et assiette à vérifier), sursalaire. Source officielle en vigueur à fournir.
 2. Une version par pays ou par pays + convention collective ?
 3. Granularité de l'affectation : entreprise seule, ou aussi établissement / catégorie de personnel ?
 4. Qui peut publier une version officielle (propriétaire seul, ou administrateur de plateforme) ?

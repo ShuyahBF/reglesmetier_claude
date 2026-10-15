@@ -85,3 +85,12 @@ nature, grille salariale, fiches du personnel — dans ALBARKA, SAWALI, sawali-G
 - La « prime de transport » est citée comme remboursement de frais (non salaire) ET l'indemnité de transport figure
   parmi les exonérations plafonnées : le TR se contredit.
 - Vocabulaire : le TR appelle « salaire brut » RT − CNSS, alors que le bulletin affiche « Total brut » = RT.
+
+## 4. Mise à jour du 15/10/2026 — FSP (prélèvement pour effort de paix)
+- **Confirmé par le propriétaire** : taxe instaurée depuis 2023, obligatoire pour toute entreprise (elle s'applique aussi
+  aux transactions courantes : recharges téléphoniques, paiements…). Le TR (Word, antérieur) n'en parle pas : son silence
+  ne signifie pas absence d'obligation.
+- ALBARKA applique 1 % du salaire net. **Restent à vérifier dans le texte officiel** : le taux exact, l'assiette (net,
+  brut ou autre), les exclusions éventuelles et l'ordre dans le bulletin (avant ou après les retenues). Ne pas modifier
+  le calcul existant avant cette vérification et l'accord du propriétaire.
+- Dans le moteur versionné : le FSP est une valeur du jeu de règles (taux, assiette, date d'effet = 2023), jamais en dur.
