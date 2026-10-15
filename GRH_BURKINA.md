@@ -94,3 +94,5 @@ nature, grille salariale, fiches du personnel — dans ALBARKA, SAWALI, sawali-G
   brut ou autre), les exclusions éventuelles et l'ordre dans le bulletin (avant ou après les retenues). Ne pas modifier
   le calcul existant avant cette vérification et l'accord du propriétaire.
 - Dans le moteur versionné : le FSP est une valeur du jeu de règles (taux, assiette, date d'effet = 2023), jamais en dur.
+
+- **Précision du propriétaire (15/10/2026)** : taux FSP = **1 %**, calculé sur le **salaire net**. Reste à confirmer par le cabinet : définition exacte du net, exclusions, arrondi (voir `FORMULAIRE_VERIFICATION_PAIE_CABINET.docx`).
